@@ -1,0 +1,17 @@
+//
+//  FileDataApp.swift
+//  FileData
+//
+//  Created by Herve Crespel on 21/07/2024.
+//
+
+import SwiftUI
+
+@main
+struct FileDataApp: App {
+    var body: some Scene {
+        DocumentGroup(newDocument: FileDataDocument()) { file in
+            ContentView(document: file.$document)
+        }
+    }
+}
