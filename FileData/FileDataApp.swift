@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct FileDataApp: App {
     var body: some Scene {
-        DocumentGroup(newDocument: FileDataDocument()) { file in
+        DocumentGroup(newDocument: CompteDocument(BP)) { file in
             ContentView(document: file.$document)
         }
     }

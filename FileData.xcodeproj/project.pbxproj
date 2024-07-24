@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09149C202C4E5B2D0065C719 /* CompteDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09149C1F2C4E5B2D0065C719 /* CompteDocument.swift */; };
 		09AB890E2C4D41E300B29793 /* FileDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB890D2C4D41E300B29793 /* FileDataApp.swift */; };
 		09AB89102C4D41E300B29793 /* FileDataDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB890F2C4D41E300B29793 /* FileDataDocument.swift */; };
 		09AB89122C4D41E300B29793 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB89112C4D41E300B29793 /* ContentView.swift */; };
 		09AB89142C4D41E500B29793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AB89132C4D41E500B29793 /* Assets.xcassets */; };
 		09AB89192C4D41E500B29793 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AB89182C4D41E500B29793 /* Preview Assets.xcassets */; };
+		09AB89212C4D421700B29793 /* Oware in Frameworks */ = {isa = PBXBuildFile; productRef = 09AB89202C4D421700B29793 /* Oware */; };
+		09AB89232C4D437A00B29793 /* Comptes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB89222C4D437A00B29793 /* Comptes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09149C1F2C4E5B2D0065C719 /* CompteDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteDocument.swift; sourceTree = "<group>"; };
 		09AB890A2C4D41E300B29793 /* FileData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09AB890D2C4D41E300B29793 /* FileDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDataApp.swift; sourceTree = "<group>"; };
 		09AB890F2C4D41E300B29793 /* FileDataDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDataDocument.swift; sourceTree = "<group>"; };
@@ -23,6 +27,7 @@
 		09AB89152C4D41E500B29793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09AB89162C4D41E500B29793 /* FileData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FileData.entitlements; sourceTree = "<group>"; };
 		09AB89182C4D41E500B29793 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09AB89222C4D437A00B29793 /* Comptes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comptes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,12 +35,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AB89212C4D421700B29793 /* Oware in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09149C1E2C4E588F0065C719 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				09AB89222C4D437A00B29793 /* Comptes.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
 		09AB89012C4D41E300B29793 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +69,7 @@
 		09AB890C2C4D41E300B29793 /* FileData */ = {
 			isa = PBXGroup;
 			children = (
+				09149C1E2C4E588F0065C719 /* data */,
 				09AB890D2C4D41E300B29793 /* FileDataApp.swift */,
 				09AB890F2C4D41E300B29793 /* FileDataDocument.swift */,
 				09AB89112C4D41E300B29793 /* ContentView.swift */,
@@ -62,6 +77,7 @@
 				09AB89152C4D41E500B29793 /* Info.plist */,
 				09AB89162C4D41E500B29793 /* FileData.entitlements */,
 				09AB89172C4D41E500B29793 /* Preview Content */,
+				09149C1F2C4E5B2D0065C719 /* CompteDocument.swift */,
 			);
 			path = FileData;
 			sourceTree = "<group>";
@@ -90,6 +106,9 @@
 			dependencies = (
 			);
 			name = FileData;
+			packageProductDependencies = (
+				09AB89202C4D421700B29793 /* Oware */,
+			);
 			productName = FileData;
 			productReference = 09AB890A2C4D41E300B29793 /* FileData.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +137,9 @@
 				Base,
 			);
 			mainGroup = 09AB89012C4D41E300B29793;
+			packageReferences = (
+				09AB891F2C4D421700B29793 /* XCRemoteSwiftPackageReference "Oware" */,
+			);
 			productRefGroup = 09AB890B2C4D41E300B29793 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,7 +168,9 @@
 			files = (
 				09AB89102C4D41E300B29793 /* FileDataDocument.swift in Sources */,
 				09AB890E2C4D41E300B29793 /* FileDataApp.swift in Sources */,
+				09149C202C4E5B2D0065C719 /* CompteDocument.swift in Sources */,
 				09AB89122C4D41E300B29793 /* ContentView.swift in Sources */,
+				09AB89232C4D437A00B29793 /* Comptes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +395,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		09AB891F2C4D421700B29793 /* XCRemoteSwiftPackageReference "Oware" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/oliveware/Oware";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		09AB89202C4D421700B29793 /* Oware */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09AB891F2C4D421700B29793 /* XCRemoteSwiftPackageReference "Oware" */;
+			productName = Oware;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 09AB89022C4D41E300B29793 /* Project object */;
 }

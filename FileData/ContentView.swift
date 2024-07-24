@@ -6,15 +6,17 @@
 //
 
 import SwiftUI
+import Attribex
 
 struct ContentView: View {
-    @Binding var document: FileDataDocument
+    @Binding var document: CompteDocument
 
     var body: some View {
-        TextEditor(text: $document.text)
+        //TextEditor(text: $document.text)
+        CompteView($document.text.compte)
     }
 }
 
 #Preview {
-    ContentView(document: .constant(FileDataDocument()))
+    ContentView(document: .constant(CompteDocument("sg")))
 }

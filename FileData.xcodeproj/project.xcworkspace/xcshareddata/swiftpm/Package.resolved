@@ -1,0 +1,42 @@
+{
+  "originHash" : "70e7310bf332855d45d285cc50508e23501b08e8fa125f4c8a2ff9f3eeef423d",
+  "pins" : [
+    {
+      "identity" : "attribex",
+      "kind" : "remoteSourceControl",
+      "location" : "http://github.com/oliveware/Attribex",
+      "state" : {
+        "branch" : "main",
+        "revision" : "8e841b64e60ff924f066962d9051662a597b235b"
+      }
+    },
+    {
+      "identity" : "oware",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/oliveware/Oware",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a0622e5d9446e2220a6053a6dbe9ae05026b8f51"
+      }
+    },
+    {
+      "identity" : "putex",
+      "kind" : "remoteSourceControl",
+      "location" : "http://github.com/oliveware/Putex",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c9e02439d18686de7e7c85068159bb82c673765d"
+      }
+    },
+    {
+      "identity" : "semantex",
+      "kind" : "remoteSourceControl",
+      "location" : "http://github.com/oliveware/Semantex",
+      "state" : {
+        "branch" : "main",
+        "revision" : "967261759a7e1abad5df5293eb74c83bba943d82"
+      }
+    }
+  ],
+  "version" : 3
+}

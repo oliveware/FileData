@@ -8,6 +8,8 @@
 import SwiftUI
 import UniformTypeIdentifiers
 
+
+
 extension UTType {
     static var exampleText: UTType {
         UTType(importedAs: "com.example.plain-text")
@@ -17,7 +19,7 @@ extension UTType {
 struct FileDataDocument: FileDocument {
     var text: String
 
-    init(text: String = "Hello, world!") {
+    init(text: String = SG) {
         self.text = text
     }
 
