@@ -10,6 +10,14 @@ import Foundation
 
 let SG = """
     {
+    "data":{
+        "clé":"89",
+        "label":"Société générale",
+        "numéro":"00050050428",
+        "domiciliation":"Lambersart Canteleu",
+        "banque":"30003","banquoid":"","BIC":"SOGEFRPP","titulaire":"M ou Mme Crespel Jacques","guichet":"01288","IBAN":[]
+    },
+    "generic":{
         "name": "sg",
         "slide": "",
         "color": "dark",
@@ -259,11 +267,20 @@ let SG = """
         {"date": "06/03/2023","libellé": "VIR RECU 6287741625S DE: PAIERIE DEPARTEMENTALE NORD DE: DEPARTEMENT DU NORD - BP MOTIF: APA A DOMICILE VERSEE AU BENEFICIAIRE FEVRIER 23 DEPARTEMENT DU NORD - BP REF: 160590900004002023-03-0214170","montant": "264,14"}
             ]
         }
+}
     }
 """
 
 let BP = """
     {
+    "data":{
+        "clé":"",
+        "label":"Banque Postale",
+        "numéro":"1115372",
+        "domiciliation":"",
+        "banque":"","banquoid":"","BIC":"","titulaire":"Mme Crespel Jacqueline","guichet":"","IBAN":[]
+    },
+    "generic":{
         "name": "bp",
         "slide": "",
         "color": "dark",
@@ -291,11 +308,20 @@ let BP = """
             {"date": "09/11/2023","libellé": "VIREMENT DE CAISSE D ASSURANCE R AITE ET SANTE AU TRAVAIL 01913786      VIRIQUE      1023 ASSURANCE RETRAITE","montant": "627,75"}
             ]
         }
+}
     }
 """
 
 let CM = """
     {
+    "data":{
+        "clé":"",
+        "label":"Crédit Mutuel",
+        "numéro":"00089303801",
+        "domiciliation":"",
+        "banque":"","banquoid":"","BIC":"","titulaire":"Mme Crespel Jacqueline","guichet":"","IBAN":[]
+    },
+    "generic":{
         "name": "cm",
         "slide": "",
         "color": "dark",
@@ -467,6 +493,7 @@ let CM = """
                 {"date": "30/11/2023","libellé": "RELEVE CARTE","montant": "-613,39"}
             ]
         }
+}
     }
 """
 

@@ -8,6 +8,7 @@
 import SwiftUI
 import UniformTypeIdentifiers
 import Oware
+import Semantex
 
 extension UTType {
     static var jsonText: UTType {
@@ -18,6 +19,8 @@ extension UTType {
     }*/
 }
 
+
+
 struct CompteDocument: FileDocument {
     var text = CompteCourant()
     
@@ -27,7 +30,7 @@ struct CompteDocument: FileDocument {
             else {
                 throw CocoaError(.fileReadCorruptFile)
             }
-            let compte = try JSONDecoder().decode(CompteCourant.Generic.self, from: json)
+            let compte = try JSONDecoder().decode(CompteCourant.Comptejson.self, from: json)
             text = CompteCourant(compte)
         }
         catch {
