@@ -7,6 +7,8 @@
 
 import Foundation
 
+let comptes = [SG,BP,CM]
+
 
 let SG = """
     {

@@ -15,6 +15,7 @@
 		09AB89192C4D41E500B29793 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AB89182C4D41E500B29793 /* Preview Assets.xcassets */; };
 		09AB89212C4D421700B29793 /* Oware in Frameworks */ = {isa = PBXBuildFile; productRef = 09AB89202C4D421700B29793 /* Oware */; };
 		09AB89232C4D437A00B29793 /* Comptes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB89222C4D437A00B29793 /* Comptes.swift */; };
+		09B4A98F2C651FE1006B79DC /* DesComptes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4A98E2C651FE1006B79DC /* DesComptes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		09AB89162C4D41E500B29793 /* FileData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FileData.entitlements; sourceTree = "<group>"; };
 		09AB89182C4D41E500B29793 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09AB89222C4D437A00B29793 /* Comptes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comptes.swift; sourceTree = "<group>"; };
+		09B4A98E2C651FE1006B79DC /* DesComptes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesComptes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				09AB89162C4D41E500B29793 /* FileData.entitlements */,
 				09AB89172C4D41E500B29793 /* Preview Content */,
 				09149C1F2C4E5B2D0065C719 /* CompteDocument.swift */,
+				09B4A98E2C651FE1006B79DC /* DesComptes.swift */,
 			);
 			path = FileData;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				09AB890E2C4D41E300B29793 /* FileDataApp.swift in Sources */,
 				09149C202C4E5B2D0065C719 /* CompteDocument.swift in Sources */,
 				09AB89122C4D41E300B29793 /* ContentView.swift in Sources */,
+				09B4A98F2C651FE1006B79DC /* DesComptes.swift in Sources */,
 				09AB89232C4D437A00B29793 /* Comptes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
